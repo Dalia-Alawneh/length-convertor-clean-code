@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Length Convertor</title>
+    <link rel="stylesheet" href="./assets/css/index.css">
+</head>
+
+<body>
+    <main>
+        <div class="container">
+            <div class="form">
+                <h1>Length Convertor</h1>
+                <form action="">
+                    <div class="input-warpper margin-block-1">
+                        <label for="meter">Enter length in Meters here</label>
+                        <input type="number" id="meter" 
+                        data-currentunit-formula="x*1"
+                        data-standard-formula="x*1" 
+                        placeholder="Enter length in Meters here">
+                    </div>
+                    <div class="input-warpper margin-block-1">
+                        <label for="kilometers">Enter length in Kilometers here</label>
+                        <input type="number" id="kilometers"
+                        data-currentunit-formula="x/1000"
+                        data-standard-formula="x*1000" 
+                        placeholder="Enter length in Kilometers here">
+                    </div>
+                    <div class="input-warpper margin-block-1">
+                        <label for="centimeters">Enter length in Centimeters here</label>
+                        <input type="number" id="centimeters"
+                        data-currentunit-formula="x*100"
+                        data-standard-formula="x/100" 
+                        placeholder="Enter length in Centimeters here">
+                    </div>
+                    <div class="input-warpper margin-block-1">
+                        <label for="inches">Enter length in Inches here</label>
+                        <input type="number" id="inches" 
+                        data-currentunit-formula="x*39.370"
+                        data-standard-formula="x/39.370" 
+                        placeholder="Enter length in Inches here">
+                    </div>
+                    <div class="input-warpper margin-block-1">
+                        <label for="feets">Enter length in Feets here</label>
+                        <input type="number" id="feets" 
+                        data-currentunit-formula="x*3.2808"
+                        data-standard-formula="x/3.2808" 
+                        placeholder="Enter length in Feets here">
+                    </div>
+                    <div class="input-warpper margin-block-1">
+                        <label for="yards">Enter length in Yards here</label>
+                        <input type="number" id="yards" 
+                        data-currentunit-formula="x*1.0936"
+                        data-standard-formula="x/1.0936" 
+                        placeholder="Enter length in Yards here">
+                    </div>
+                    <div class="input-warpper margin-block-1">
+                        <label for="miles">Enter length in Miles here</label>
+                        <input type="number" id="miles" 
+                        data-currentunit-formula="x*0.00062137"
+                        data-standard-formula="x/0.00062137" 
+                        placeholder="Enter length in Miles here">
+                    </div>
+                    <input type="reset" class="bg-blue" value="Reset"/>
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <script src="./assets/js/index.js"></script>
+</body>
+
+</html>

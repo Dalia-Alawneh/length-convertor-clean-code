@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Glory:ital,wght@0,200;0,600;1,400;1,600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: calc(100% - 50px);
+    max-width: 500px;
+    margin: auto;
+    padding-top: 4rem;
+}
+
+body {
+    background: #0093e9 linear-gradient(120deg, #0093e9, #80d0c7);
+    min-height: 100vh;
+    font-family: Glory, sans-serif;
+}
+
+::placeholder,
+input {
+    font-family: Glory, sans-serif;
+}
+
+label,
+input {
+    display: block;
+    width: 100%;
+}
+
+label {
+    margin-bottom: 0.4rem;
+    color: #242424;
+    font-weight: bold;
+
+}
+
+input {
+    padding: 5px;
+    font-size: 17px;
+    border-color: #f1f1f1;
+    border: 1px solid #3232325d;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+}
+
+input:focus {
+    outline: none;
+    border-color: #0093e9;
+}
+
+.margin-block-1 {
+    margin-block: 1rem;
+}
+
+.form {
+    background-color: #f1f1f1;
+    padding: 10px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+
+input[type="reset"] {
+    color: white;
+    font-weight: bold;
+}
+
+h1 {
+    text-align: center;
+}
+
+.bg-blue {
+    background-color: #0093e9;
+}
